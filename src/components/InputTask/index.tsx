@@ -1,7 +1,7 @@
 import { InputTaskComponent } from './styles';
 
 const InputTask = () => {
-  return <InputTaskComponent type="text" onFocus={() => console.log('Input focado')} />;
+  return <InputTaskComponent type="text" />;
 };
 
 export default InputTask;

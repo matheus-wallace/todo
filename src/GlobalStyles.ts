@@ -25,4 +25,13 @@ export const GlobalStyles = createGlobalStyle`
     margin: 0;
     padding: 0;
   }
+
+  button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  }
 `;

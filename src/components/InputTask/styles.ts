@@ -7,8 +7,14 @@ export const InputTaskComponent = styled.input`
   border-radius: 0.5rem;
   background-color: ${({ theme }) => theme.colors.gray500};
   font-weight: ${({ theme }) => theme.weights.bold};
+  width: 100%;
 
   ::placeholder {
     color: ${({ theme }) => theme.colors.gray300};
+  }
+
+  &:focus {
+    outline: none;
+    border-color: ${({ theme }) => theme.colors.purpleDark};
   }
 `;

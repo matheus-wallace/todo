@@ -1,16 +1,15 @@
 import { ButtonWithIconContainer } from './styles';
+import AddIcon from '../../assets/plus.svg';
 
 interface ButtonWithIconProps {
   textButton: string;
-  icon: string;
-  altIcon: string;
 }
 
-const ButtonWithIcon = ({ textButton, icon, altIcon }: ButtonWithIconProps) => {
+const ButtonWithIcon = ({ textButton }: ButtonWithIconProps) => {
   return (
     <ButtonWithIconContainer>
       {textButton}
-      <img src={icon} alt={altIcon} />
+      <AddIcon />
     </ButtonWithIconContainer>
   );
 };
