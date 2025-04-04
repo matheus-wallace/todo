@@ -15,7 +15,6 @@ export const ButtonWithIconContainer = styled.button<{ disabled?: boolean }>`
   cursor: pointer;
   transition: background-color 0.3s, transform 0.2s;
 
-  opacity: ${({ disabled }) => (disabled ? 0.7 : 1)};
   cursor: ${({ disabled }) => (disabled ? 'not-allowed' : 'pointer')};
 
   &:active {
